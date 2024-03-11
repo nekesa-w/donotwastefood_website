@@ -1,0 +1,156 @@
+:root {
+    --primary: #8CB369;
+    --blue: #5B8E7D;
+    --grey: #242424;
+}
+
+body {
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background: transparent;
+    font-size: 1rem;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin: 0 40px;
+}
+
+.navbar-logo {
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 50px;
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav-links {
+    color: var(--grey);
+    text-decoration: none;
+    padding: 10px;
+    height: 100%;
+}
+
+.nav-links:hover {
+    color: var(--primary);
+    transition: all 0.5s ease-out;
+}
+
+.nav-links-last {
+    background-color: var(--blue);
+    color: #fff;
+    border: 1px solid var(--blue);
+    text-decoration: none;
+    padding: 10px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.nav-links-last:hover {
+    background-color: #fff;
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    transition: all 0.5s ease-out;
+}
+
+
+.fa-bars,
+.fa-times {
+    color: var(--primary);
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 960px) {
+
+    .navbar-container {
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .navbar-mobile-icon {
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navbar-logo {
+        max-width: 60%;
+        max-height: 60%;
+        margin-left: 20px;
+    }
+
+    .menu-icon {
+        display: inline;
+        cursor: pointer;
+        font-size: 2rem;
+        margin-right: 20px;
+    }
+
+    .fa-times {
+        color: var(--primary);
+    }
+
+    .nav-menu {
+        padding: 20px 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .nav-menu.active {
+        background: var(--primary);
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
+    }
+
+    .nav-links {
+        display: block;
+        width: 100vw;
+        color: var(--grey);
+        text-align: center;
+        padding: 30px;
+    }
+
+    .nav-links:hover {
+        background-color: #fff;
+        border-radius: 0;
+    }
+
+}

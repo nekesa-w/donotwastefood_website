@@ -1,0 +1,27 @@
+:root {
+    --primary: #8CB369;
+    --blue: #5B8E7D;
+    --grey: #242424;
+}
+
+body {
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    background: transparent;
+    font-size: 1rem;
+    top: 0;
+    z-index: 999;
+}
+
+.footer-containter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    margin: 0 40px;
+}
