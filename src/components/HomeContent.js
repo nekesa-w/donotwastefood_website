@@ -1,43 +1,59 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./HomeContent.css";
+import Carousel from "./Carousel";
 
 function HomeContent() {
 	return (
 		<div className="home-container">
+			<img className="hero-bg" src={require("../images/hero-rounded.png")} />
 			<div className="hero-container">
-				<img className="hero-rounded" src="/images/hero-rounded.png" />
-				<h2>Nourishing Lives, Sharing Hope</h2>
-				<p>
-					Join our mission to end hunger and food waste. Every meal matters, and
-					with our app, you can make a real impact.
-				</p>
-				<Link>Get The App</Link>
-				<img className="hero-image" src="/images/hero-img.png" />
+				<div className="left-column">
+					<h2>Nourishing Lives, Sharing Hope</h2>
+					<p>
+						Join our mission to end hunger and food waste. Every meal matters,
+						and with our app, you can make a real impact.
+					</p>
+					<h3>
+						<Link to="/home" className="hero-link">
+							Get The App
+						</Link>
+					</h3>
+				</div>
+				<div className="right-column">
+					<img className="hero-image" src={require("../images/hero-img.png")} />
+				</div>
 			</div>
 
-			<div classNme="content-container">
-				<h3>
-					DNWF helps redistribute high-quality surplus to people in need. Help
-					neighbors all with one simple app.
-				</h3>
-				<h2>
-					Help the planet.<br></br>Foster community.<br></br>Reduce waste.
-				</h2>
+			<div className="content-container">
+				<div className="green-image-wrap">
+					<img
+						className="green-image"
+						src={require("../images/green-rounded.png")}
+					/>
+					<p className="green-image-text">
+						DNWF helps redistribute quality food surplus to people in need.
+						<br /> Help your neighbors with a simple click in our app.
+					</p>
+				</div>
+				<div className="blue-image-wrap">
+					<img
+						className="blue-image"
+						src={require("../images/blue-rounded.png")}
+					/>
+					<p className="blue-image-text">
+						Help the planet.
+						<br />
+						Foster community.
+						<br />
+						Reduce waste.
+					</p>
+				</div>
 			</div>
 
-			<div classNme="carousel-container">
-				<h3>Our community</h3>
-				<p>
-					Life-changing app! Streamlined process, connecting donors with those
-					in need seamlessly. A game-changer for fostering compassion and
-					reducing food waste
-				</p>
-				<h4>Sarah K.</h4>
-				<p>
-					"This food donation app exceeded my expectations! A fantastic way to
-					make a meaningful difference in the community!"
-				</p>
-				<h4>David F.</h4>
+			<div className="carousel-container">
+				<h2>Our Community</h2>
+				<Carousel />
 			</div>
 		</div>
 	);

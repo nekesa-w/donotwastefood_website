@@ -12,8 +12,8 @@ function Navbar() {
 		<nav className="navbar">
 			<div className="navbar-container">
 				<div className="navbar-mobile-icon">
-					<Link to="/">
-						<img className="navbar-logo" src="/images/logo.png" />
+					<Link to="/home">
+						<img className="navbar-logo" src={require("../images/logo.png")} />
 					</Link>
 					<div class className="menu-icon" onClick={handleClick}>
 						<i className={click ? "fa-solid fa-times" : "fa-solid fa-bars"} />

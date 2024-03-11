@@ -1,0 +1,17 @@
+:root {
+    --primary: #8CB369;
+    --blue: #5B8E7D;
+    --grey: #242424;
+}
+
+.carousel-card {
+    width: 150px;
+    height: 300px;
+    border: 5px solid var(--blue);
+    border-radius: 50px;
+    text-align: center;
+}
+
+.carousel-card h4 {
+    margin-top: 20px;
+}
