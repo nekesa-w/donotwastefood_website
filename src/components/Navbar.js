@@ -26,20 +26,12 @@ function Navbar() {
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link
-							to="/learn-more"
-							className="nav-links"
-							onClick={closeMobileMenu}
-						>
+						<Link to="/" className="nav-links" onClick={closeMobileMenu}>
 							Learn More
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link
-							to="/get-involved"
-							className="nav-links-last"
-							onClick={closeMobileMenu}
-						>
+						<Link to="/" className="nav-links-last" onClick={closeMobileMenu}>
 							Get Involved
 						</Link>
 					</li>
