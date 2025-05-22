@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/donotwastefood_reactapp/static/css/main.2aa16234.css",
-    "main.js": "/donotwastefood_reactapp/static/js/main.09d02646.js",
+    "main.js": "/donotwastefood_reactapp/static/js/main.27b4c5c5.js",
     "static/media/blue-rounded.png": "/donotwastefood_reactapp/static/media/blue-rounded.703810caac5658fc4275.png",
     "static/media/green-rounded.png": "/donotwastefood_reactapp/static/media/green-rounded.835ae2b9271649190033.png",
     "static/media/hero-rounded.png": "/donotwastefood_reactapp/static/media/hero-rounded.3ff1468b3d11c5508b31.png",
@@ -13,10 +13,10 @@
     "static/media/slick.woff": "/donotwastefood_reactapp/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/donotwastefood_reactapp/index.html",
     "main.2aa16234.css.map": "/donotwastefood_reactapp/static/css/main.2aa16234.css.map",
-    "main.09d02646.js.map": "/donotwastefood_reactapp/static/js/main.09d02646.js.map"
+    "main.27b4c5c5.js.map": "/donotwastefood_reactapp/static/js/main.27b4c5c5.js.map"
   },
   "entrypoints": [
     "static/css/main.2aa16234.css",
-    "static/js/main.09d02646.js"
+    "static/js/main.27b4c5c5.js"
   ]
 }
