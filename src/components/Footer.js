@@ -5,6 +5,10 @@ import "./Footer.css";
 function Footer() {
 	return (
 		<nav className="footer">
+			<img
+				className="footer-bg"
+				src={require("../images/footer-rounded.png")}
+			/>
 			<div className="footer-container">
 				<div className="top-row">
 					<ul className="footer-menu">
@@ -32,10 +36,6 @@ function Footer() {
 				</div>
 				<div className="bottom-row">
 					<p>DNWF © 2024</p>
-					<img
-						className="footer-bg"
-						src={require("../images/footer-rounded.png")}
-					/>
 				</div>
 			</div>
 		</nav>

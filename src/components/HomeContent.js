@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./HomeContent.css";
 import Carousel from "./Carousel";
+import { motion } from "framer-motion";
+import { ReactTyped } from "react-typed";
 
 function HomeContent() {
 	return (
@@ -9,7 +11,11 @@ function HomeContent() {
 			<img className="hero-bg" src={require("../images/hero-rounded.png")} />
 			<div className="hero-container">
 				<div className="left-column">
-					<h2>Nourishing Lives, Sharing Hope</h2>
+					<h2>
+						Nourishing Lives, <br />
+						Sharing <br />
+						Hope
+					</h2>
 					<p>
 						Join our mission to end hunger and food waste. Every meal matters,
 						and with our app, you can make a real impact.
@@ -21,7 +27,16 @@ function HomeContent() {
 					</h3>
 				</div>
 				<div className="right-column">
-					<img className="hero-image" src={require("../images/hero-img.png")} />
+					<motion.img
+						initial={{
+							x: 50,
+						}}
+						animate={{
+							x: 0,
+						}}
+						className="hero-image"
+						src={require("../images/hero-img.png")}
+					/>
 				</div>
 			</div>
 
@@ -32,8 +47,11 @@ function HomeContent() {
 						src={require("../images/green-rounded.png")}
 					/>
 					<p className="green-image-text">
-						DNWF helps redistribute quality food surplus to people in need.
-						<br /> Help your neighbors with a simple click in our app.
+						Revolutionize giving, connect surplus to need, and unite
+						communities.
+						<br />
+						<br />
+						Erase waste, hunger, and build solidarity.
 					</p>
 				</div>
 				<div className="blue-image-wrap">
@@ -42,11 +60,17 @@ function HomeContent() {
 						src={require("../images/blue-rounded.png")}
 					/>
 					<p className="blue-image-text">
-						Help the planet.
+						Your impact, their smiles: a shared responsibility.
 						<br />
-						Foster community.
 						<br />
-						Reduce waste.
+						Help your
+						<br />
+						<ReactTyped
+							strings={["neighbours.", "city.", "planet."]}
+							typeSpeed={150}
+							backSpeed={100}
+							loop
+						/>
 					</p>
 				</div>
 			</div>

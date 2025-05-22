@@ -12,8 +12,12 @@ function Navbar() {
 		<nav className="navbar">
 			<div className="navbar-container">
 				<div className="navbar-mobile-icon">
-					<Link to="/home">
+					<Link to="/">
 						<img className="navbar-logo" src={require("../images/logo.png")} />
+						<img
+							className="navbar-logo-white"
+							src={require("../images/logo-white.png")}
+						/>
 					</Link>
 					<div class className="menu-icon" onClick={handleClick}>
 						<i className={click ? "fa-solid fa-times" : "fa-solid fa-bars"} />
@@ -21,17 +25,29 @@ function Navbar() {
 				</div>
 				<ul className={click ? "nav-menu active" : "nav-menu"}>
 					<li className="nav-item">
-						<Link to="/mission" className="nav-links" onClick={closeMobileMenu}>
+						<Link
+							to="/our-mission"
+							className="nav-links"
+							onClick={closeMobileMenu}
+						>
 							Our Mission
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link to="/" className="nav-links" onClick={closeMobileMenu}>
+						<Link
+							to="/learn-more"
+							className="nav-links"
+							onClick={closeMobileMenu}
+						>
 							Learn More
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link to="/" className="nav-links-last" onClick={closeMobileMenu}>
+						<Link
+							to="/get-involved"
+							className="nav-links-last"
+							onClick={closeMobileMenu}
+						>
 							Get Involved
 						</Link>
 					</li>
