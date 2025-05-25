@@ -13,8 +13,7 @@ function HomeContent() {
 				<div className="left-column">
 					<h2>
 						Nourishing Lives, <br />
-						Sharing <br />
-						Hope
+						Sharing Hope
 					</h2>
 					<p>
 						Join our mission to end hunger and food waste. Every meal matters,

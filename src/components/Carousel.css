@@ -10,7 +10,7 @@
     border: 10px solid var(--blue);
     border-radius: 50px;
     line-height: 1.5;
-    padding: 70px 50px;
+    padding: 50px;
     font-size: 20px;
     text-align: center;
 }
@@ -19,9 +19,7 @@
     font-family: "Alfa Slab One", serif;
     font-weight: 500;
     font-size: 30px;
-    top: 300px;
-    position: absolute;
-    translate: 50% 50%;
+    margin-top: 30px;
 }
 
 .slick-slide {

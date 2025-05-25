@@ -1,0 +1,117 @@
+.mission-container {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Asap", sans-serif;
+}
+
+.mission-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 150%;
+    z-index: -1;
+}
+
+.mission-hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.hero-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-stat h1,
+.hero-stat h2 {
+    color: var(--white);
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 3px 3px 0px var(--blue);
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-stat h1 {
+    font-family: "Alfa Slab One", serif;
+    font-size: 7em;
+    margin-top: 50px;
+}
+
+.hero-stat h2 {
+    font-family: "Asap", sans-serif;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.round-image-wrap {
+    padding-top: 250px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.round-image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.round-image-text p {
+    color: var(--white);
+    font-size: 3em;
+    line-height: 1.6;
+    font-family: "Asap", sans-serif;
+    font-weight: 200;
+    margin: 0 auto;
+}
+
+.round-image-text h3 {
+    color: var(--white);
+    font-size: 9em;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.impact-container h2 {
+    margin-top: 80px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-size: 5em;
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 50px;
+    background: var(--blue);
+    background: linear-gradient(to right, #5B8E7D 0%, #8CB369 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.impact1-image-wrap h2,
+.impact2-image-wrap h2 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-size: 4em;
+    text-align: left;
+    background: var(--blue);
+    background: linear-gradient(to right, #5B8E7D 0%, #8CB369 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

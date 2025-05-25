@@ -7,22 +7,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 function App() {
 	const router = createBrowserRouter([
-		{
-			path: "/",
-			element: <Home />,
-		},
-		{
-			path: "/our-mission",
-			element: <OurMission />,
-		},
-		{
-			path: "/learn-more",
-			element: <LearnMore />,
-		},
-		{
-			path: "/get-involved",
-			element: <GetInvolved />,
-		},
+		{ path: "/", element: <Home /> },
+		{ path: "/our-mission", element: <OurMission /> },
+		{ path: "/learn-more", element: <LearnMore /> },
+		{ path: "/get-involved", element: <GetInvolved /> },
 	]);
 
 	return <RouterProvider router={router} />;
