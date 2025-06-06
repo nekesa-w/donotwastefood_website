@@ -1,0 +1,125 @@
+.involved-container {
+    padding: 0 0 120px 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Asap", sans-serif;
+}
+
+.involved-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.involved-hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-bottom: 500px;
+}
+
+.apple-link {
+    padding-top: 1400px;
+    padding-right: 400px;
+}
+
+.google-link {
+    padding-top: 100px;
+    padding-right: 400px;
+}
+
+.involved-content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1000px;
+}
+
+.involved-content-container h2 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-size: 7em;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    background: linear-gradient(to right, #5B8E7D 0%, #8CB369 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.circle1-image-wrap,
+.circle2-image-wrap,
+.circle3-image-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.circle1-image-wrap,
+.circle2-image-wrap,
+.circle3-image-wrap {
+    flex-direction: row;
+}
+
+.circle1-image-wrap h2,
+.circle2-image-wrap h2 .circle3-image-wrap h2 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-size: 4em;
+    text-align: left;
+    background: linear-gradient(to right, #5B8E7D 0%, #8CB369 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.circle1-image-wrap p,
+.circle2-image-wrap p,
+.circle3-image-wrap p {
+    font-family: "Asap", sans-serif;
+    font-size: 3em;
+    color: var(--blue);
+    max-width: 300px;
+    margin: 0;
+}
+
+.circle1-image,
+.circle2-image,
+.circle3-image {
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+
+.join-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.join-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

@@ -1,0 +1,60 @@
+.learn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 0 100px 0;
+    font-family: "Asap", sans-serif;
+}
+
+.learn-hero-container,
+.learn-content-container,
+.learn-more-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.hero-learn {
+    width: 100%;
+    text-align: left;
+}
+
+.hero-learn h1 {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-size: 7em;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #5B8E7D 0%, #8CB369 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.learn-bg,
+.learn-rect {
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.learn-image-text {
+    padding: 50px 0;
+    text-align: left;
+}
+
+.learn-image-text p,
+.learn-more-container p {
+    font-family: "Asap", sans-serif;
+    font-size: 2em;
+    line-height: 2;
+    color: black;
+    margin: 0 auto;
+    text-align: left;
+    padding: 50px 0;
+}
